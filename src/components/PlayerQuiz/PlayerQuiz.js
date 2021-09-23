@@ -24,7 +24,7 @@ function PlayerQuiz({playerQuiz, questionNumber, score, nextQuestion, editButton
         exit={{ opacity: 0 }}
         >
             {displayMobileThree && <h2>{playerQuiz.capitalPlayer}</h2>}
-            <img src={"https://lavantonio.github.io/Deploy-React_knowleg_quiz/img/"+playerQuiz.player+".jpg"} className="card-img-top" alt={playerQuiz.capitalPlayer}></img> 
+            <img src={"https://lavantonio.github.io/Deploy-React_knowledge_quiz/img/"+playerQuiz.player+".jpg"} className="card-img-top" alt={playerQuiz.capitalPlayer}></img> 
             <div className="card-body">
                 <div className="responsivePlayerQuizDisplayNone">
                     {displayMobileFour && <h2>{playerQuiz.capitalPlayer}</h2>}
