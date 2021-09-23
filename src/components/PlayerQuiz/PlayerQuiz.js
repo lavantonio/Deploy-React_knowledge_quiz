@@ -24,10 +24,10 @@ function PlayerQuiz({playerQuiz, questionNumber, score, nextQuestion, editButton
         exit={{ opacity: 0 }}
         >
             {displayMobileThree && <h2>{playerQuiz.capitalPlayer}</h2>}
-            <img src={"https://lavantonio.github.io/React_knowledge_quiz/img/"+playerQuiz.player+".jpg"} className="card-img-top" alt={playerQuiz.capitalPlayer}></img> 
+            <img src={"https://lavantonio.github.io/React_knowleg_deploy/img/"+playerQuiz.player+".jpg"} className="card-img-top" alt={playerQuiz.capitalPlayer}></img> 
             <div className="card-body">
                 <div className="responsivePlayerQuizDisplayNone">
-              {displayMobileFour && <h2>{playerQuiz.capitalPlayer}</h2>}
+                    {displayMobileFour && <h2>{playerQuiz.capitalPlayer}</h2>}
                     <p id="scorePlayer"className="lead">Ukupno poena : {score}</p>
                 </div>
                 <div className="responsivePlayerQuiz">
@@ -37,7 +37,6 @@ function PlayerQuiz({playerQuiz, questionNumber, score, nextQuestion, editButton
                     <p id = "countRounds" className = "pt-1">Pitanje {questionNumber}</p>
                     {actionButtons}
                 </div>
-
             </div>
         </motion.div>
 
